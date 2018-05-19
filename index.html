@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> CR6</title>
+    <link rel="icon" type="image/png" href="https://cdn1.iconfinder.com/data/icons/ninja-things-1/1772/ninja-simple-512.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid ">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#"> <strong>  My library</strong> </a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Books</a></li>
+                    <li><a href="#">DVD</a></li>
+                    <li><a href="#">CD</a></li>
+                    <li><a href="#">Comic</a></li>
+                </ul>
+                <div class=" nav navbar-nav navbar-right dropdown">
+                    
+                    <button class=" btn btn-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="glyphicon glyphicon-plus"></span> Add More
+                    </button>
+                    <div id="input" class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <input type="text" id="title" placeholder="Title">
+                        <input type="text" id="type" placeholder="Type">
+                        <input type="text" id="auther" placeholder="Auther">
+                        <input type="text" id="genre" placeholder="Genre">
+                        <input type="text" id="published" placeholder="published">
+                        <input type="text" id="image" placeholder="Image URL">
+                        <input type="text" id="SD" placeholder="Short Description">
+                        <input type="text" id="rating" placeholder="Rating">
+                        <button id="bto" class="btn btn-block" type="button"> Add</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div id="cont" class=" text-center row">
+        </div>
+        
+        <footer>
+    &copy; my library
+    </footer>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
